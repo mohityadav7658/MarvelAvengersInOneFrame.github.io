@@ -1,0 +1,42 @@
+a:any-link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+      color: rgb(126, 9, 9);
+      background-color: transparent;
+      text-decoration: none;
+    }
+  .animate-charcter
+    {
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #d8d5d4 0%,
+        #13130e 29%,
+        #ff1313 67%,
+        #530409 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      /* text-fill-color: transparent; */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+          font-size: 40px;
+    }
+    marquee{
+      color: white;
+    }
+    
+    
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }
